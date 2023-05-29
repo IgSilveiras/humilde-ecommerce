@@ -1,0 +1,21 @@
+.header {
+    height: 10vh;
+    background-color: #1a1a1a;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color:white;
+
+
+    &__logo img {
+        height: 7.5vh;
+        transition: scale 100ms;
+
+        &:hover {
+            scale: 1.05;
+            filter: drop-shadow(2px 2px 8px);
+        }
+    }
+}
