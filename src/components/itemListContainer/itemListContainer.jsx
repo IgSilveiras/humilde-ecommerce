@@ -1,10 +1,10 @@
-import "./itemListContainer.scss"
+import "./ItemListContainer.scss"
 
-export const ItemListContainer = () => {
+export const ItemListContainer = (props) => {
     return (
     <section className="ItemListContainer">
         <h1>E-Commerce Humilde</h1>
         <hr />
-        <h2>Abrimos Pronto</h2>
+        <h2>{props.greeting}</h2>
     </section>
 )}

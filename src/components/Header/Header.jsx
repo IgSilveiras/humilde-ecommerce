@@ -1,5 +1,5 @@
 import { NavBar } from "../NavBar/NavBar";
-import { CartWidget } from "../CartWidget/cartWidget";
+import { CartWidget } from "../CartWidget/CartWidget";
 import "./Header.scss"
 
 
