@@ -2,3 +2,11 @@
 
 @import url("./general/_reset.scss");
 @import url("./general/_body.scss");
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 3vh;
+}

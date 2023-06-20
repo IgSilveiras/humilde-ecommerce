@@ -1,0 +1,16 @@
+.ItemCard {
+    width: 20vw;
+    height: 24vw;
+
+    background-color: #aaaaaa;
+    border: 2px solid black;
+    margin: 10px;
+
+    &:hover {
+        scale: 1.010
+    }
+
+    .detailsBtn {
+        justify-self: flex-end;
+    }
+}

@@ -1,10 +1,15 @@
-import "./ItemListContainer.scss"
+import { useFetch } from "../../hooks/useFetch"
+import { ItemList } from "../ItemList/ItemList"
 
-export const ItemListContainer = (props) => {
+
+export const ItemListContainer = () => {
+
+    const { res: productos } = useFetch()
+
     return (
-    <section className="ItemListContainer">
-        <h1>E-Commerce Humilde</h1>
-        <hr />
-        <h2>{props.greeting}</h2>
-    </section>
-)}
+        <section className="ItemListContainer">
+
+            <ItemList prods={productos}/>
+        </section>
+    )
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "i9 13900k",
+        "categoria": "cpu",
+        "precio": 925,
+        "fabricante": "intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "id": 2,
+        "nombre": "Ryzen 9 7950X3D",
+        "categoria": "cpu",
+        "precio": 1100,
+        "fabricante": "amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "id": 3,
+        "nombre": "RTX 4080 Trinity 16gb",
+        "categoria": "gpu",
+        "precio": 2190,
+        "fabricante": "nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "id": 4,
+        "nombre": "RX7900XT OC 20gb",
+        "categoria": "gpu",
+        "precio": 1545,
+        "fabricante": "amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "id": 5,
+        "nombre": "Kingston Fury Renegade 16gb DDR5 6800Mhz",
+        "categoria": "ram",
+        "precio": 235,
+        "fabricante": "kingston",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "id": 6,
+        "nombre": "Adata XPG Lancer RGB 16Gb DDR5 6000Mhz",
+        "categoria": "ram",
+        "precio": 164,
+        "fabricante": "adata",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    }
+]

@@ -1,0 +1,16 @@
+.ItemList {
+    text-align: center;
+
+    h2 {
+        color: white;
+        font-size: 20px;
+    }
+
+    .productos {
+        margin-top: 2rem;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}

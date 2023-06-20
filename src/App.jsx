@@ -8,7 +8,10 @@ function App() {
         <div>
             <Header />
 
-            <ItemListContainer greeting="Abrimos Pronto"/>
+            <h1>E-Commerce Humilde</h1>
+            <hr />
+
+            <ItemListContainer/>
         </div>
     )
 }
