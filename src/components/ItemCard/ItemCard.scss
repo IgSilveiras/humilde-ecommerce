@@ -1,8 +1,8 @@
 .ItemCard {
-    width: 20vw;
-    height: 24vw;
+    width: 19rem;
+    min-height: 20rem;
 
-    background-color: #aaaaaa;
+    background-color: #8d8d8d;
     border: 2px solid black;
     margin: 10px;
 
@@ -10,7 +10,19 @@
         scale: 1.010
     }
 
-    .detailsBtn {
-        justify-self: flex-end;
+    button {
+        margin-top: 1rem;
+        padding: 0.6rem;
+        border-radius: 0;
+        background-color: black;
+
+        border: 1px solid white;
+
+        a {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+        }
     }
 }

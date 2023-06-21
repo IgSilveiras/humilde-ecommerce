@@ -1,18 +1,17 @@
+import { Link } from 'react-router-dom'
 import './ItemCard.scss'
 
 
-export const ItemCard = ({prod}) => {
+export const ItemCard = ({ prod }) => {
 
     return (
-        <div className='ItemCard' key={prod.id}>
+        <div className='ItemCard'>
             <img src={prod.img} alt={prod.nombre} />
 
-            <div className='prodDetails'>
-                <h3>{prod.nombre}</h3>
-                <h4>${prod.precio}</h4>
-            </div>
+            <h3>{prod.nombre}</h3>
+            <h4>${prod.precio}</h4>
 
-            <button className='detailsBtn'>Detalles</button>
+            <button><Link to={`/item/${prod.id}`}>Detalles</Link></button>
         </div>
     )
 }

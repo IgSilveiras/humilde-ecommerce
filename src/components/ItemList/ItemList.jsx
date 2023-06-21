@@ -11,7 +11,7 @@ export const ItemList = ({ prods }) => {
             <section className='productos'>
 
                 {prods.map((prod) => (
-                    <ItemCard prod={prod} />
+                    <ItemCard prod={prod} key={prod.id} />
                 ))}
 
             </section>
