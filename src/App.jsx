@@ -2,12 +2,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/header/header";
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
+import { CartProvider } from "./context/CartContext";
+import { Cart } from "./components/Cart/Cart"
 import "./styles/style.scss"
 
 
 function App() {
     return (
-        <div>
+        <CartProvider>
             <BrowserRouter>
 
                 <Header />
@@ -18,11 +20,12 @@ function App() {
                     <Route path="/" element={<ItemListContainer />} />
                     <Route path="/category/:categoryId" element={<ItemListContainer />} />
                     <Route path="/item/:prodId" element={<ItemDetailContainer />} />
+                    <Route path="/cart" element={<Cart />} />
                 </Routes>
 
             </BrowserRouter>
 
-        </div>
+        </CartProvider>
     )
 }
 

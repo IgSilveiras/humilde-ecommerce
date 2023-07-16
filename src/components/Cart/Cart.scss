@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.totalP {
+    margin: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    color: white;
+    border: 2px solid white;
+    margin: 12px;
+    padding: 1.1rem;
+    font-size: 15px;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.empty {
+    background-color: #a73535;
+}
+
+.complete {
+    background-color: #4e9c47;
+    width: fit-content;
+}
+
+.emptyCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

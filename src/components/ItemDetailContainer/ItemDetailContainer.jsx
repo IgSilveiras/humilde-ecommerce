@@ -1,6 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import { useParams } from 'react-router-dom'
+import { CartContext } from '../../context/CartContext'
+import { ItemDetail } from '../ItemDetail/ItemDetail'
 import './ItemDetailContainer.scss'
 
 
@@ -19,13 +21,7 @@ export const ItemDetailContainer = () => {
 
     return (
         <div className='ItemDetailContainer'>
-            <img src={producto.img} alt="producto.nombre" />
-            <h2>{producto.nombre}</h2>
-            <h3>Precio: ${producto.precio}</h3>
-            <p>Categoria: {producto.categoria}</p>
-            <p>Fabricante: {producto.fabricante}</p>
-
-            <button>Comprar</button>
+            <ItemDetail {...producto} />
         </div>
     )
 }
