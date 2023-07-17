@@ -2,7 +2,6 @@ import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
-import './ItemDetail.scss'
 
 
 export const ItemDetail = ( {id, nombre, categoria, precio, fabricante, img} ) => {
@@ -43,8 +42,8 @@ export const ItemDetail = ( {id, nombre, categoria, precio, fabricante, img} ) =
 
             {
                 isInCart(id)
-                    ? <button onClick={HandleAgregar} className="btn">Agregar otro al carrito</button>
-                    : <button onClick={HandleAgregar} className="btn">Agregar al Carrito</button>
+                    ? <button onClick={HandleAgregar} className="btn complete">Agregar otro al carrito</button>
+                    : <button onClick={HandleAgregar} className="btn complete">Agregar al Carrito</button>
             }
         </div>
     )

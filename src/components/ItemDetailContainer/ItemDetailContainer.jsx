@@ -1,21 +1,22 @@
-import { useContext, useEffect, useState } from 'react'
-import { pedirDatos } from '../../helpers/pedirDatos'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { CartContext } from '../../context/CartContext'
 import { ItemDetail } from '../ItemDetail/ItemDetail'
+import { doc, getDoc } from 'firebase/firestore'
+import { db } from '../../firebase/config'
 import './ItemDetailContainer.scss'
 
 
 
 export const ItemDetailContainer = () => {
 
-    const [producto, setProducto] = useState([])
+    const [producto, setProducto] = useState(null)
     const { prodId } = useParams()
 
     useEffect(() => {
-        pedirDatos()
-            .then((data) => {
-                setProducto((data.find((prod) => prod.id === Number(prodId))))
+        const itemRef = doc(db, "productos", prodId)
+        getDoc(itemRef)
+            .then((doc) => {
+                setProducto({...doc.data(), id: doc.id})
             })
     }, [prodId])
 

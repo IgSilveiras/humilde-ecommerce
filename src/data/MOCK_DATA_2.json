@@ -1,0 +1,188 @@
+[{
+        "nombre":"GTX 1650 4gb",
+        "precio":250,
+        "categoria":"gpu",
+        "fabricante":"nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"RTX 3060 8gb",
+        "precio":500,
+        "categoria":"gpu",
+        "fabricante":"nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"RTX 3070 8gb",
+        "precio":780,
+        "categoria":"gpu",
+        "fabricante":"nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"RTX 3080",
+        "precio":950,
+        "categoria":"gpu",
+        "fabricante":"nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre": "RTX 4080 Trinity 16gb",
+        "categoria": "gpu",
+        "precio": 2190,
+        "fabricante": "nvidia",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"RX 560 4gb",
+        "precio":180,
+        "categoria":"gpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    }, {
+        "nombre":"RX 6500XT 4gb DDR6",
+        "precio":300,
+        "categoria":"gpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"RX 6800 OC 16gb",
+        "precio":900,
+        "categoria":"gpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre": "RX7900XT OC 20gb",
+        "categoria": "gpu",
+        "precio": 1545,
+        "fabricante": "amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i3 12100f",
+        "precio":140,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i3 12100",
+        "precio":200,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i5 10400f",
+        "precio":150,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i5 12400f",
+        "precio":250,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i5 13600kf",
+        "precio":420,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i7 10700f",
+        "precio":320,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i7 12700f",
+        "precio":460,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i7 13700k",
+        "precio":650,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"i9 10900kf",
+        "precio":550,
+        "categoria":"cpu",
+        "fabricante":"intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre": "i9 13900k",
+        "categoria": "cpu",
+        "precio": 925,
+        "fabricante": "intel",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"Ryzen 3 3200G",
+        "precio": 130,
+        "categoria":"cpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"Ryzen 5 5600G",
+        "precio":220,
+        "categoria":"cpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"Ryzen 7 5800X",
+        "precio":360,
+        "categoria":"cpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"Ryzen 7 7700X",
+        "precio":550,
+        "categoria":"cpu",
+        "fabricante":"amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre": "Ryzen 9 7950X3D",
+        "categoria": "cpu",
+        "precio": 1100,
+        "fabricante": "amd",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre":"Fury Beast 8gb DDR4 3200mhz",
+        "precio":30,
+        "categoria":"ram",
+        "fabricante":"kingston",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+        "nombre": "Kingston Fury Renegade 16gb DDR5 6800Mhz",
+        "categoria": "ram",
+        "precio": 235,
+        "fabricante": "kingston",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    },{
+        "nombre": "Adata XPG Lancer RGB 16Gb DDR5 6000Mhz",
+        "categoria": "ram",
+        "precio": 164,
+        "fabricante": "adata",
+        "img" : "https://dummyimage.com/200x200/000/fff"
+    }
+]
